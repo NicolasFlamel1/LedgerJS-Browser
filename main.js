@@ -4,7 +4,7 @@
 
 // Classes
 
-// Transport Web Bluetooth
+// Transport web Bluetooth
 class TransportWebBluetooth {
 
 	// Public
@@ -1099,13 +1099,13 @@ class TransportWebBluetooth {
 }
 
 
-// Global variables
+// Main function
 
-// Transport WebUSB
+// Set window's transport WebUSB
 window["TransportWebUSB"] = require("@ledgerhq/hw-transport-webusb")["default"];
 
-// Buffer
+// Set window's Buffer
 window["Buffer"] = require("buffer")["Buffer"];
 
-// Transport Web Bluetooth
+// Set window's transport web Bluetooth
 window["TransportWebBluetooth"] = TransportWebBluetooth;
