@@ -5,7 +5,7 @@
 		"build": "parcel build main.js --dist-dir dist --no-source-maps && mv dist/main.js dist/LedgerJS_Browser.js"
 	},
 	"devDependencies": {
-		"@ledgerhq/hw-transport-webusb": "6.27.12",
+		"@ledgerhq/hw-transport-webusb": "6.27.15",
 		"buffer": "^5.5.0",
 		"parcel": "^2.8.3",
 		"process": "^0.11.10"
