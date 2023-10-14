@@ -1,13 +1,13 @@
 {
 	"name": "LedgerJS_Browser",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"scripts": {
 		"build": "parcel build main.js --dist-dir dist --no-source-maps && mv dist/main.js dist/LedgerJS_Browser.js"
 	},
 	"devDependencies": {
-		"@ledgerhq/hw-transport-webusb": "6.27.15",
-		"buffer": "^5.5.0",
-		"parcel": "^2.8.3",
+		"@ledgerhq/hw-transport-webusb": "6.27.19",
+		"buffer": "^6.0.3",
+		"parcel": "^2.10.0",
 		"process": "^0.11.10"
 	},
 	"alias": {
